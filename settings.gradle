@@ -9,7 +9,7 @@ include 'omar-wfs-app-ods',
 
 
 project(':omar-wfs-app-ods').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/apps/omar-wfs-app" as File
-project(':omar-wfs-plugin').projectDir = "${O2_DEV_HOME}/omar-wfs/plugins/omar-wfs-plugin" as File
+project(':omar-wfs-plugin').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/plugins/omar-wfs-plugin" as File
 project(':omar-core-plugin').projectDir = "${O2_DEV_HOME}/omar-core/plugins/omar-core-plugin" as File
 project(':omar-hibernate-spatial-plugin').projectDir = "${O2_DEV_HOME}/omar-hibernate-spatial/plugins/omar-hibernate-spatial-plugin" as File
 

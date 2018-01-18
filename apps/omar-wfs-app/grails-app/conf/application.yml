@@ -7,11 +7,12 @@ omar:
     app:
       geoscript:
         # The url endpoint for the omar-geoscript service
-        url: http://omar-geoscript-app:8080/omar-geoscript/geoscriptApi
+        url: http://localhost/omar-geoscript/geoscriptApi
 
 # Set the context path for the application
-#server:
-#  contextPath: /omar-wfs
+server:
+  contextPath: /omar-wfs
+  port: 8081
 
 swagger:
   schemes:

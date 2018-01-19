@@ -26,7 +26,6 @@
 /plugin.xml
 
 # older plugin install locations
-/plugins
 /web-app/plugins
 
 # "temporary" build files

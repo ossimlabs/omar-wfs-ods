@@ -64,7 +64,7 @@ dependencyManagement {
 
 grails {
   plugins {
-    compile project(':omar-wfs-plugin')
+    compile project(':omar-wfs-ods-plugin')
   }
 }
 

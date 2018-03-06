@@ -2,14 +2,14 @@ def final O2_DEV_HOME = System.getenv('O2_DEV_HOME')
 
 if ( O2_DEV_HOME ) {
 
-include 'omar-wfs-app-ods',
+include 'omar-wfs-ods-app',
         'omar-core-plugin',
         'omar-hibernate-spatial-plugin',
-        'omar-wfs-plugin'
+        'omar-wfs-ods-plugin'
 
 
-project(':omar-wfs-app-ods').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/apps/omar-wfs-app" as File
-project(':omar-wfs-plugin').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/plugins/omar-wfs-plugin" as File
+project(':omar-wfs-ods-app').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/apps/omar-wfs-ods-app" as File
+project(':omar-wfs-ods-plugin').projectDir = "${O2_DEV_HOME}/omar-wfs-ods/plugins/omar-wfs-ods-plugin" as File
 project(':omar-core-plugin').projectDir = "${O2_DEV_HOME}/omar-core/plugins/omar-core-plugin" as File
 project(':omar-hibernate-spatial-plugin').projectDir = "${O2_DEV_HOME}/omar-hibernate-spatial/plugins/omar-hibernate-spatial-plugin" as File
 
